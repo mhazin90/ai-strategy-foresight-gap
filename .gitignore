@@ -1,0 +1,15 @@
+pdfs/
+data/02_paragraphs.csv
+data/*BACKUP*
+data/04_test_A*.jsonl
+data/06_test_C.jsonl
+*Zone.Identifier
+__pycache__/
+*.log
+nohup.out
+paper*.md
+paper*.docx
+references.bib
+ieee.csl
+tables_output.txt
+*.zip

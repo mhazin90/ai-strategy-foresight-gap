@@ -1,0 +1,26 @@
+id,generation,paragraphs,words,kept_share,english_ratio,language_flag,first_page
+USA_2019,1,47,2933,1.0,0.31,ok,"Presidential Documents 3967 Federal Register Vol. 84, No. 31 Thursday, February 14, 2019 Title 3— The President Executive Order 13859 of February 11, "
+GBR_2021,1,313,20979,0.99,0.35,ok,National AI Strategy
+DEU_2018,1,269,27410,0.99,0.39,ok,Artificial Intelligence Strategy Status: November 2018 www.ki-strategie-deutschland.de
+FRA_2018,1,753,64832,0.99,0.37,ok,FOR A MEANINGFUL ARTIFICIAL INTELLIGENCE TOWARDS A FRENCH AND EUROPEAN STRATEGY CÉDRIC VILLANI Mathematician and Member of the French Parliament Compo
+FIN_2019,1,426,39028,0.96,0.35,ok,Leading the way into the age of artiﬁcial intelligence Final report of Finland’s Artiﬁcial Intelligence Programme 2019 Publications of the Ministry of
+DNK_2019,1,315,18284,1.0,0.35,ok,"Ministry of Finance and Ministry of Industry, Business and Financial Affairs MARCH 2019 National Strategy for Artificial Intelligence"
+NLD_2019,1,325,28221,0.99,0.37,ok,Strategic Action Plan for Artificial Intelligence The Netherlands
+EU_2018,1,132,10728,1.0,0.33,ok,"EN EN EUROPEAN COMMISSION Brussels, 7.12.2018 COM(2018) 795 final ANNEX ANNEX to the COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE"
+CHN_2017,1,71,13137,1.0,0.23,CHECK,In Their Own Words: A Next Generation Artificial Intelligence Development Plan State Council Notice on the Issuance of the Next Generation Artificial 
+JPN_2019,1,131,18368,0.99,0.31,ok,"AI Strategy 2019 AI for Everyone: People, Industries, Regions and Governments （ tentative translation ） June 11, 2019 Integrated Innovation Strategy P"
+KOR_2019,1,155,17702,0.95,0.27,ok,GPRN 11-1721000-000393-01 National Strategy for Artificial Intelligence
+SGP_2019,1,282,14974,1.01,0.32,ok,ADVANCING OUR SMART NATION JOURNEY
+IND_2018,1,500,40553,0.99,0.32,ok,
+BRA_2021,1,247,18721,1.0,0.04,CHECK,"Julho de 2021 Estratégia Brasileira de Inteligência Artificial -EBIA- Ministério da Ciência, Tecnologia e Inovações Secretaria de Empreendedorismo e I"
+ARE_2017,1,153,10018,1.0,0.33,ok,
+GBR_2025,2,126,8745,0.99,0.33,ok,CP 1241
+USA_2025,2,140,9345,0.98,0.29,ok,Winning the Race AMERICA’S AI ACTION PLAN JULY 2025 T H E W H I T E H O U S E
+DEU_2020,2,116,14599,0.99,0.37,ok,www.ki-strategie-deutschland.de Artificial Intelligence Strategy of the German Federal Government 2020 Update Status: December 2020
+FRA_2021,2,143,8907,0.97,0.01,CHECK,STRATÉGIE NATIONALE POUR L’INTELLIGENCE ARTIFICIELLE – 2e phase Conquérir les talents et transformer notre potentiel scientifique en succès économique
+EU_2021,2,349,33962,1.0,0.33,ok,"EN EN EUROPEAN COMMISSION Brussels, 21.4.2021 COM(2021) 205 final ANNEX ANNEXES to the Communication from the Commission to the European Parliament, t"
+JPN_2022,2,168,13318,1.01,0.38,ok,"0 AI Strategy 2022 (tentative translation) April 22, 2022 This document was drafted using NICT's AI translator TexTra."
+SGP_2023,2,194,10156,1.01,0.32,ok,AI for the Public Good For Singapore and the World
+BRA_2024,2,303,21083,1.0,0.31,ok,Brazilian Artiﬁcial Intelligence Plan
+KEN_2025,2,290,24047,1.0,0.27,ok,KENYA ARTIFICIAL INTELLIGENCE STRATEGY 2025-2030 March 2025
+CAN_2026,2,236,13412,1.0,0.29,ok,Canada’s National Artificial Intelligence Strategy: AI for All

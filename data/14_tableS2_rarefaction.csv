@@ -1,0 +1,4 @@
+condition,documents,rho_OI,rho_OF_strict,rho_OF_broad,rho_FI_strict,rho_FI_broad,mediation_strict,mediation_broad
+Full length,25,0.584,0.108,0.323,0.154,0.383,0.053,0.255
+Rarefied N=120,22,0.48,0.042,0.182,0.058,0.198,0.02,0.107
+Rarefied N=47,25,0.401,0.035,0.125,0.04,0.136,0.016,0.07

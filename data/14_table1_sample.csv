@@ -1,0 +1,26 @@
+,country,year,generation,language,pages,paragraphs
+BRA_2021,Brazil,2021,1,Portuguese,52,247
+CHN_2017,China,2017,1,English,44,71
+DNK_2019,Denmark,2019,1,English,74,315
+EU_2018,European Union,2018,1,English,23,132
+FIN_2019,Finland,2019,1,English,136,426
+FRA_2018,France,2018,1,English,154,753
+DEU_2018,Germany,2018,1,English,45,269
+IND_2018,India,2018,1,English,114,500
+JPN_2019,Japan,2019,1,English,74,131
+NLD_2019,Netherlands,2019,1,English,64,325
+SGP_2019,Singapore,2019,1,English,45,282
+KOR_2019,South Korea,2019,1,English,62,155
+ARE_2017,UAE,2017,1,English,25,153
+GBR_2021,United Kingdom,2021,1,English,35,313
+USA_2019,United States,2019,1,English,6,47
+BRA_2024,Brazil,2024,2,English,70,303
+CAN_2026,Canada,2026,2,English,50,236
+EU_2021,European Union,2021,2,English,70,349
+FRA_2021,France,2021,2,French,28,143
+DEU_2020,Germany,2020,2,English,31,116
+JPN_2022,Japan,2022,2,English (machine translation),46,168
+KEN_2025,Kenya,2025,2,English,91,290
+SGP_2023,Singapore,2023,2,English,68,194
+GBR_2025,United Kingdom,2025,2,English,26,126
+USA_2025,United States,2025,2,English,28,140

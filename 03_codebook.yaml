@@ -1,0 +1,131 @@
+version: "1.1"
+
+unit_of_analysis: paragraph
+
+general_rules:
+  - Code only what the document itself commits to, plans, or states as its own goal.
+  - Do not code background description, history, statistics, or the state of AI in general.
+  - Do not code descriptions of other countries or organisations unless the document adopts them as its own action.
+  - Do not code instruments described only as already completed in the past. Code them if they are continued, expanded, or newly planned.
+  - An instrument is coded only if the government commits to fund, create, require, or run it. Describing what AI could do is never an instrument.
+  - A use case of AI in a sector such as agriculture, health, or transport is coded as the objective it serves, not as an instrument.
+  - A paragraph can contain zero, one, or several elements of each dimension. Empty lists are a normal and frequent answer.
+  - When in doubt between two categories, choose the one the paragraph is mainly about.
+  - Code from the text only. Do not use outside knowledge about the country.
+
+strength_scale:
+  0: No relation between the two elements in this paragraph.
+  1: Co-mention. Both elements appear in the same paragraph but the text states no relation between them.
+  2: Stated relation. The text states that one element serves, informs, or supports the other, but gives no concrete specifics.
+  3: Operational relation. The text states the relation AND gives at least one concrete specific, namely a budget amount, a named programme, a deadline or timeline, or a named responsible body.
+
+objectives:
+  ECON:
+    name: Economic competitiveness
+    definition: Growth, productivity, industrial adoption of AI, support for companies and SMEs, startups, income of producers, market position, attracting investment, national economic leadership.
+    keywords: [competitiveness, economic growth, productivity, industry, adoption, startups, SMEs, market, investment, commercialisation, leadership, GDP]
+  RES:
+    name: Research and innovation
+    definition: Strengthening AI research capacity, scientific excellence, research centres, technology transfer from science to application.
+    keywords: [research, science, excellence, innovation, research centre, laboratory, technology transfer, basic research, academia]
+  WORK:
+    name: Workforce and education
+    definition: Skills of people, talent, education systems, jobs, labour market transition, effects of automation on workers, retraining. Support for companies or producers is ECON, not WORK.
+    keywords: [skills, talent, education, training, workforce, labour market, jobs, reskilling, upskilling, automation, curriculum]
+  ETH:
+    name: Ethics and trustworthy AI
+    definition: Fairness, transparency, accountability, human rights, privacy as a value, human-centric and trustworthy AI, public trust.
+    keywords: [ethics, ethical, trustworthy, fairness, transparency, accountability, human rights, human-centric, bias, explainability, trust]
+  SEC:
+    name: Security and safety
+    definition: National security, defence, cybersecurity, robustness and safety of AI systems, risks from advanced AI. Privacy and data protection are not SEC.
+    keywords: [security, defence, defense, military, cybersecurity, safety, robustness, threat, resilience]
+  REG:
+    name: Regulatory framework
+    definition: The goal of creating, adapting, or clarifying law and regulation for AI, including liability, data protection law, and standards policy.
+    keywords: [regulation, legal framework, legislation, law, liability, compliance, standards, governance framework, data protection]
+  INTL:
+    name: International cooperation
+    definition: Cooperation with other countries or international organisations, global governance, international standards, diplomacy.
+    keywords: [international, cooperation, partnership, global, multilateral, bilateral, OECD, G7, United Nations, alliance]
+  PUB:
+    name: Public sector and services
+    definition: Use of AI in government administration, public services, healthcare, agriculture, mobility, or other public-interest domains.
+    keywords: [public sector, public services, government services, administration, e-government, healthcare, citizens]
+  ENV:
+    name: Environment and sustainability
+    definition: Climate, energy efficiency, environmental protection, sustainable development goals, energy use of AI.
+    keywords: [environment, climate, sustainability, sustainable, energy efficiency, emissions, green, SDG]
+
+foresight:
+  SCEN:
+    name: Scenario planning
+    family: creativity-based
+    definition: Construction or use of alternative future scenarios or visions to inform policy.
+    keywords: [scenario, scenarios, futures, alternative futures, future pathways]
+  EXP:
+    name: Expert panels
+    family: expertise-based
+    definition: Expert commissions, advisory councils, or expert consultations explicitly tasked with assessing future developments or advising on strategy.
+    keywords: [expert group, expert commission, advisory council, advisory board, high-level group, Delphi, expert consultation]
+  ROAD:
+    name: Technology roadmapping
+    family: expertise-based
+    definition: Roadmaps that sequence expected technological developments or milestones over time.
+    keywords: [roadmap, milestones, technology roadmap]
+  TREND:
+    name: Trend analysis and monitoring
+    family: evidence-based
+    definition: Horizon scanning, trend analysis, forecasting, indicators, or monitoring. Any AI observatory or monitoring body is always TREND.
+    keywords: [trend, horizon scanning, forecasting, monitoring, indicators, observatory, foresight, outlook, benchmarking]
+  RISK:
+    name: Risk assessment
+    family: evidence-based
+    definition: Systematic assessment of risks or impacts of AI, including impact assessments and risk classification.
+    keywords: [risk assessment, impact assessment, risk analysis, risk-based, assessment of impacts]
+  STAKE:
+    name: Stakeholder dialogue
+    family: interaction-based
+    definition: Public consultations, citizen dialogues, multi-stakeholder forums, or social partner dialogues used to shape future direction.
+    keywords: [consultation, dialogue, stakeholders, public participation, social partners, workshops, forum]
+
+instruments:
+  FIN:
+    name: Financial
+    definition: Funding, grants, investment funds, tax incentives, public procurement budgets.
+    keywords: [funding, fund, grant, million, billion, budget, investment, tax incentive, financing, procurement]
+  REGI:
+    name: Binding regulation
+    definition: Laws, legally binding regulations, mandatory requirements, binding standards, enforcement mechanisms.
+    keywords: [law, act, regulation, binding, mandatory, obligation, enforcement, statute, legislation, ban]
+  SOFT:
+    name: Soft law
+    definition: Voluntary guidelines, ethical principles, codes of conduct, voluntary certification, regulatory sandboxes, recommendations.
+    keywords: [guidelines, principles, code of conduct, voluntary, certification, sandbox, recommendations, charter]
+  ORG:
+    name: Organisational
+    definition: Creating or mandating agencies, offices, units, committees, hubs, networks of organisations, governance structures, or coordination bodies. An observatory created by the document is ORG and also TREND.
+    keywords: [agency, office, institute, committee, task force, coordination, unit, hub, network, council, governance structure]
+  INFRA:
+    name: Technical infrastructure
+    definition: Physical or digital technical infrastructure only, namely computing capacity, supercomputers, cloud, data infrastructure and data spaces, connectivity, and testing or experimentation facilities. Organisational networks, governance structures, hubs, and AI applications are never INFRA.
+    keywords: [supercomputer, computing capacity, compute, data infrastructure, data space, cloud, testbed, testing facility, connectivity, broadband]
+  EDU:
+    name: Education and training programmes
+    definition: Concrete programmes for education, degree places, scholarships, professorships, training or reskilling schemes.
+    keywords: [programme, scholarship, professorship, degree, course, curriculum, training programme, fellowships, PhD]
+  INFO:
+    name: Information and awareness
+    definition: Awareness campaigns, public information, labels for consumers, knowledge-sharing platforms, reporting duties to the public.
+    keywords: [awareness, campaign, information, communication, public understanding, outreach, knowledge sharing]
+
+link_types:
+  OF: Objective to foresight. The foresight activity addresses or informs the objective.
+  FI: Foresight to instrument. The foresight output informs the design or choice of the instrument.
+  OI: Objective to instrument. The instrument contributes to the objective.
+
+output_format_per_paragraph:
+  objectives: list of objective codes present
+  foresight: list of foresight codes present
+  instruments: list of instrument codes present
+  links: list of objects with fields source, target, type (OF, FI, or OI), strength (1 to 3), evidence (shortest exact quote from the paragraph, at most 20 words)
